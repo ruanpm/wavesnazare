@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            justify-content: flex-start; /* Align content to the top */
+            position: relative;
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+
+        #video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            padding-top: 25px;
+        }
+
+        #my-video {
+            width: 100%;
+            height: 600px;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+        }
+
+        #header {
+            text-align: center;
+        }
+
+        #header-text {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+        #header-text-2 {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            padding-top: 50px;
+        }
+
+        #header-text-3 {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            display: inline-block;
+            color: aqua;
+            padding-top: 12px;
+        }
+
+        #header-text-4 {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            padding-top: 40px;
+        }
+
+        #red-dot {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border-radius: 50%;
+            margin-left: 10px;
+            animation: blink 1s step-end infinite;
+        }
+
+        .vjs-big-play-button {
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+        .surf-fc-widget {
+            width: 100%;
+            max-width: 1200px !important;
+            padding-top: 25px;
+        }
+
+        #explanation {
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .content {
+            color: whitesmoke;
+        }
+
+        a {
+            color: cornflowerblue;
+        }
+
+        p {
+            line-height: 1.7 !important; 
+            letter-spacing: 1px !important;
+        }
+        
+        .footer {
+            color: white;
+            padding-top: 140px;
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust styling for screens smaller than 768px */
+            #header-text {
+                font-size: 24px;
+            }
+            #header-text-2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER TEXT TERMS -->
+    <a style="" href="../index.html">Back</a>
+    <div id="header">
+        <span id="header-text-2">Cookies Policy</span>
+    </div>
+
+    <!-- CONTENT PRIVACY POLICY -->
+    <div id="explanation">
+        <p class="content">
+            How this site utilizes cookies on its webpages
+
+            Across our websites, we employ cookies and similar tools to enhance your user experience and optimize the site's performance. This policy provides an explanation of how we achieve this.
+            
+            What do cookies entail?
+            
+            Cookies are small text and number-based files that a website may place on your computer or mobile device during your initial visit to a site or webpage. These cookies contain data that gets transferred to your computer's hard drive.
+            
+            Subsequently, the cookie assists the website or another website in recognizing your device when you revisit. Web beacons or similar files can also fulfill this role. In this policy, we use the term 'cookies' to refer to all files that collect information in this manner.
+            
+            Cookies have a multitude of functions. They can aid in remembering your username and preferences, evaluating the performance of our website, or even making personalized content recommendations based on what we believe is most relevant to you.
+            
+            Certain cookies may contain personal data. For instance, if you choose to "remember me" when logging in, a cookie will store your username. Most cookies, however, do not collect personally identifying information; instead, they gather more general data, such as how users arrive at and use our websites or a user's approximate location.
+            
+            What types of cookies are utilized by this site?
+            
+            In general, our cookies fulfill up to four distinct functions:
+            
+            1. Essential or Strictly Necessary Cookies
+            
+            Some cookies are crucial for the functioning of our website. For instance, certain cookies allow us to identify subscribers and guarantee their access to subscription-only content. If a subscriber opts to disable these cookies, they won't be able to access all the content their subscription entitles them to.
+            
+            2. Performance or Analytical Cookies
+            
+            We employ other cookies to analyze our visitors' usage of our websites and to monitor website performance. This empowers us to enhance our website's functionality and deliver a high-quality user experience by customizing our offerings and promptly addressing any issues that may arise. These cookies enable us to recognize and count the number of visitors and observe their navigation on the site. For example, we might utilize performance cookies to track the most popular pages, the most effective methods of linking between pages, and the reasons behind error messages on some pages. These cookies can also be utilized to feature articles or site services we think will pique your interest based on your website usage.
+            
+            3. Functionality Cookies
+            
+            Functionality cookies are utilized to recognize you and remember your preferences. These cookies save you the trouble of entering your username every time you access the site and recall your customization preferences, such as site appearance settings you may have configured when logging in. We also utilize functionality cookies to provide enhanced services, such as the ability to watch online videos or comment on a blog.
+            
+            4. Targeted Advertising Cookies
+            
+            These cookies track your visit, including the pages you've visited and the links you've followed. We employ this information to render our website and the displayed advertisements more relevant to your interests. This information may also be shared with third parties for this purpose.
+            
+            Is this website the only one that employs cookies?
+            
+            Third parties, including advertising networks and providers of external services like web traffic analysis services, may also utilize cookies, which are beyond our control. These cookies are typically analytical or performance cookies or targeting cookies.
+            
+            Advertisers sometimes utilize their cookies to furnish you with targeted advertisements. For instance, advertisers may utilize a profile they've constructed from sites you've previously visited to present you with more pertinent ads during your visit to this website.
+            
+            If you're situated in the European Union and want to learn more about how advertisers employ these cookie types or opt not to receive them, please visit www.youronlinechoices.eu. If you're based in the United States and want to learn more, please visit http://www.aboutads.info/choices/.
+            
+            We also employ or permit third parties to serve cookies falling into the four aforementioned categories. For instance, like many companies, we use Google Analytics to help us monitor website traffic. We may also utilize third-party cookies to assist with market research, revenue tracking, improving site functionality, and monitoring compliance with our terms and conditions and copyright policy.
+            
+            Can users block cookies on a website?
+            
+            As previously explained, cookies enhance your experience on our websites.
+            
+            You can block cookies by enabling the setting in your browser that allows you to reject all or some cookies. However, if you configure your browser settings to block all cookies, including essential ones, you may be unable to access certain parts of our site.
+            
+            Upon your first visit to our website after August 6th, 2012, you likely encountered a message explaining that, by continuing to access our site, you are granting consent to our use of cookies.
+        </p>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2023  Portugal - Nazaré | <a href="/pages/terms">Terms of Service</a> | <a href="/pages/privacy_policy">Privacy</a> | <a href="/pages/cookie_policy">Cookie Policy</a></p>
+    </footer>
+
+    <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+
+    <script>
+        var player = videojs('my-video');
+        player.play(); // Autoplay the video if desired
+    </script>
+</body>
+
+</html>
