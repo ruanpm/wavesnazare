@@ -38,8 +38,9 @@
             height: 100%;
         }
 
-        #header {
+        #header-div {
             text-align: center;
+            padding-top: 50px;
         }
 
         #header-text {
@@ -70,6 +71,14 @@
         #header-text-4 {
             color: white;
             font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            padding-top: 40px;
+        }
+
+        #header-text-5 {
+            color: white;
+            font-size: 20px;
             font-weight: bold;
             display: inline-block;
             padding-top: 40px;
@@ -115,7 +124,52 @@
             line-height: 1.7 !important; 
             letter-spacing: 1px !important;
         }
-        
+
+        header {
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        header a {
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        /* Add the button class to style the links as buttons */
+        .button {
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            border-radius: 15px;
+            text-decoration: none;
+            padding: 8px;
+            padding-left: 12px;
+            padding-right: 15px;
+        }
+
+        .button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        iframe {
+            padding-top: 30px;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        .wave-img {
+            padding-left: 10px;
+        }
+
         .footer {
             color: white;
             padding-top: 140px;
@@ -148,6 +202,7 @@
     <a style="" href="../index.html">Back</a>
     <div id="header">
         <span id="header-text-2">Cookies Policy</span>
+        <img class="wave-img" width="28" src="../assets/images/favicon.ico">
     </div>
 
     <!-- CONTENT PRIVACY POLICY -->
