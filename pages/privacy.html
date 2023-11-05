@@ -6,6 +6,8 @@
      crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -196,34 +198,45 @@
 
 <body>
 
-    <header>
-        <a class="button" href="../index.html">Home</a>
-        <a class="button" href="../pages/directions.html">Directions to Nazare</a>
-        <a class="button" href="../pages/about.html">About</a>
-    </header>
-
-    <!-- HEADER  LIVE NAZARE -->
-    <div id="header-div">
-        <span id="header-text">Directions to Nazare Big Waves Viewpoint</span>
+    <!-- HEADER TEXT TERMS -->
+    <a style="" href="../index.html">Back</a>
+    <div id="header">
+        <span id="header-text-2">Privacy Policy</span>
         <img class="wave-img" width="28" src="../assets/images/favicon.ico">
     </div>
 
-    <!-- FROM PORTO TO NAZARE -->
-    <span id="header-text-5">From PORTO to BIG WAVES VIEWPOINT</span>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1556465.6856599764!2d-10.10007513677273!3d40.36514426570025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto%2C%20Portugal!3m2!1d41.1579438!2d-8.629105299999999!4m5!1s0xd18a9d47b0518d7%3A0x50fe8dae89fa814f!2sBig%20Wave%20Viewpoint%2C%20Estr.%20do%20Farol%202450%2C%202450%2C%202450%20Nazar%C3%A9%2C%20Portugal!3m2!1d39.6059099!2d-9.0834551!5e0!3m2!1spt-BR!2sbr!4v1699187265972!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- CONTENT PRIVACY POLICY -->
+    <div id="explanation">
+        <p class="content">
+        To enhance the user experience, wavesnazare.com gives visitors the option to input personal contact details, like email addresses, street addresses, and names, when they create an account on the website. The email address serves as a means of user authentication and, if necessary, a way to regain access in case of a forgotten password. Users can utilize their accounts to subscribe to or unsubscribe from customized surf condition notifications, newsletters, and other website services.
+        Visitors may upload photos to be publicly displayed. The same rules apply to information about the poster as in the case of opinions and observations.
+        Wavesnazare.com is committed to safeguarding the privacy of its users while enabling the convenient exchange of information.
+        Wavesnazare.com analyzes the IP addresses of visitors to determine their approximate geographical locations. This information is used to enhance the presentation of website content.
+        Users are also able to submit their opinions and observations for public display on the website. In this scenario, the email address remains concealed to prevent spam. However, the poster's name and region may be visible as part of their signature.
 
-    <!-- FROM LISBON TO NAZARE -->
-    <span id="header-text-5">From LISBON to BIG WAVES VIEWPOINT</span>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d791906.127180874!2d-9.649515812828687!3d39.166005929642864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!3m2!1d38.722252399999995!2d-9.1393366!4m5!1s0xd18a9d47b0518d7%3A0x50fe8dae89fa814f!2sBig%20Wave%20Viewpoint%2C%20Estr.%20do%20Farol%202450%2C%202450%2C%202450%20Nazar%C3%A9%2C%20Portugal!3m2!1d39.6059099!2d-9.0834551!5e0!3m2!1spt-BR!2sbr!4v1699187449579!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        Wavesnazare.com is dedicated to not sharing users' email or postal addresses with third parties unless granted explicit consent by the users. The only exception to this policy is when providing postal services with necessary information for delivering products ordered by the user or awarded to the user.
 
-     <!-- FOOTER -->
-     <footer class="footer">
+        It's important to note that account passwords are not stored in any database or file on our servers. Instead, only the results of cryptographic hash functions are retained, which cannot be reversed to recover the actual passwords in any practical manner.
+
+        To facilitate user access without requiring repeated password entry, Wavesnazare.com utilizes cookies.
+
+        On the pages of Wavesnazare.com, you may encounter banner ads and analytics tools hosted by third parties, like Google Analytics. These companies maintain their own privacy policies concerning the use of cookies and tracking of user behavior.    
+        </p>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
         <p>© 2023  Portugal - Nazaré | <a href="../pages/terms.html">Terms of Service</a> | <a href="../pages/privacy.html">Privacy</a> | <a href="../pages/cookie_policy.html">Cookie Policy</a></p>
     </footer>
 
 
+    <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+
+    <script>
+        var player = videojs('my-video');
+        player.play(); // Autoplay the video if desired
+    </script>
 </body>
 
 </html>
-
-
